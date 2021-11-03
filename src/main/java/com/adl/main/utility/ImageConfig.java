@@ -14,7 +14,9 @@ public class ImageConfig implements WebMvcConfigurer {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// TODO Auto-generated method stub
 		exposeDirectory(registry,"prevention-image");
+		exposeDirectory(registry,"faqs-image");
 	}
+	
 
 	private void exposeDirectory(ResourceHandlerRegistry registry, String directori) {
 		// TODO Auto-generated method stub
